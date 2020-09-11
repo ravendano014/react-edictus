@@ -29,8 +29,7 @@ function App() {
 
       <p>
         <a href="https://edictus.herokuapp.com/graphql">Edictus API</a> Basic Info: Sistema de Gestión de Edictos Judiciales.
-        Escenario:
-        * Put image here...
+        
       </p>
       <div className="container">
 
