@@ -1,25 +1,55 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+import { useQuery } from '@apollo/react-hooks';
+import gql from "graphql-tag";
+
+
+const GET_item_INFO = gql`
+                            {
+                              getActos {
+                                      id_acto
+                                      acto
+                              }
+                            }
+                            `
 function App() {
+  const { data, loading, error } = useQuery(GET_item_INFO);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error</p>;
+
+  console.log(data);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <h1>
+        React Client for Edictus API
+  
+</h1>
+
+      <p>
+        <a href="https://edictus.herokuapp.com/graphql">Edictus API</a> Basic Info: Sistema de Gestión de Edictos Judiciales.
+        Escenario:
+        * Put image here...
+      </p>
+      <div className="container">
+
+        {data && data.getActos &&
+          data.getActos.map((item, index) => (
+
+            <div key={index} className="card">
+
+              <div class="card-body">
+                <h3>{item.id_acto}</h3>
+                <p>
+                  {item.acto}
+                </p>
+              </div>
+            </div>
+
+          ))}
+      </div>
+    </React.Fragment>
   );
 }
 

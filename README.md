@@ -1,3 +1,26 @@
+## Dev Steps
+
+Initial Steps
+from outside if it does not installed
+
+npm install -g create-react-app
+
+Then we need an empty folder previously created
+
+mkdir react-edictus
+create-react-app react-edictus
+
+cd react-edcitus
+
+to test 
+npm start
+
+Now dependencies
+npm i graphql apollo-client apollo-cache-inmemory apollo-link-http install react-apollo install graphql-tag
+
+Change the code...
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
