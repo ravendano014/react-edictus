@@ -10,7 +10,7 @@ Then we need an empty folder previously created
 mkdir react-edictus
 create-react-app react-edictus
 
-cd react-edcitus
+cd react-edictus
 
 to test 
 npm start
