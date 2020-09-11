@@ -1,5 +1,5 @@
 # Scenario
-https://https://github.com/ravendano014/react-edictus/blob/master/Edictus_API.png
+https://github.com/ravendano014/react-edictus/blob/master/Edictus_API.png
 
 ## Dev Steps
 
