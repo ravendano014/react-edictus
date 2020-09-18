@@ -10,7 +10,7 @@ import { HttpLink } from 'apollo-link-http';
 import { ApolloProvider } from '@apollo/react-hooks';
 
 const cache = new InMemoryCache();
-const link = new HttpLink({
+const link = new HttpLink({ 
   uri: 'https://edictus.herokuapp.com/graphql'
 })
 
