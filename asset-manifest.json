@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-edictus/static/css/main.849fc741.chunk.css",
+    "main.js": "/react-edictus/static/js/main.3893c683.chunk.js",
+    "main.js.map": "/react-edictus/static/js/main.3893c683.chunk.js.map",
+    "runtime-main.js": "/react-edictus/static/js/runtime-main.7c52c82a.js",
+    "runtime-main.js.map": "/react-edictus/static/js/runtime-main.7c52c82a.js.map",
+    "static/js/2.c11ef73d.chunk.js": "/react-edictus/static/js/2.c11ef73d.chunk.js",
+    "static/js/2.c11ef73d.chunk.js.map": "/react-edictus/static/js/2.c11ef73d.chunk.js.map",
+    "index.html": "/react-edictus/index.html",
+    "precache-manifest.b3bfaba890c6c661e083e58f08a81708.js": "/react-edictus/precache-manifest.b3bfaba890c6c661e083e58f08a81708.js",
+    "service-worker.js": "/react-edictus/service-worker.js",
+    "static/css/main.849fc741.chunk.css.map": "/react-edictus/static/css/main.849fc741.chunk.css.map",
+    "static/js/2.c11ef73d.chunk.js.LICENSE.txt": "/react-edictus/static/js/2.c11ef73d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c52c82a.js",
+    "static/js/2.c11ef73d.chunk.js",
+    "static/css/main.849fc741.chunk.css",
+    "static/js/main.3893c683.chunk.js"
+  ]
+}
