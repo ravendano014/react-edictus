@@ -15,7 +15,7 @@ const GET_item_INFO = gql`
 function App() {
   const { data, loading, error } = useQuery(GET_item_INFO);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <p>Loading... </p>;
   if (error) return <p>Error</p>;
 
   console.log(data);
